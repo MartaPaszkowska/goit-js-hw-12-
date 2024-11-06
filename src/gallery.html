@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>gallery</title>
+  <link rel="stylesheet" href="./css/gallery.css" />
+  <script type="module" src="./js/gallery.js"></script>
+</head>
+
+<body>
+  <section>
+    <header class="header">
+      <a href="./index.html">Co to home</a>
+      <h1>Welcome to gallery</h1>
+
+      <form class="form">
+        <input type="text" name="searchQuery" class="input" placeholder="Search for images..." />
+        <button type="submit" class="btn">Search</button>
+      </form>
+    </header>
+
+    <ul class="gallery"></ul>
+    <div class="loader" style="display:none;">Loading images, please wait...</div>
+    <button class="load-more" style="display:none;">Load more</button>
+  </section>
+</body>
+
+</html>
